@@ -13,7 +13,8 @@
 		5BD20F4A2476D881004C9B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD20F482476D881004C9B79 /* Main.storyboard */; };
 		5BD20F4C2476D884004C9B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD20F4B2476D884004C9B79 /* Assets.xcassets */; };
 		5BD20F4F2476D884004C9B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD20F4D2476D884004C9B79 /* LaunchScreen.storyboard */; };
-		5BD20F5A2476D884004C9B79 /* TestSupportedDevelopmentDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD20F592476D884004C9B79 /* TestSupportedDevelopmentDemoTests.swift */; };
+		5BD20F5A2476D884004C9B79 /* LogoutUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD20F592476D884004C9B79 /* LogoutUseCaseTests.swift */; };
+		5BD20F652476D8AB004C9B79 /* LogoutUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD20F642476D8AB004C9B79 /* LogoutUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,9 @@
 		5BD20F4E2476D884004C9B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BD20F502476D884004C9B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BD20F552476D884004C9B79 /* TestSupportedDevelopmentDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSupportedDevelopmentDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BD20F592476D884004C9B79 /* TestSupportedDevelopmentDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSupportedDevelopmentDemoTests.swift; sourceTree = "<group>"; };
+		5BD20F592476D884004C9B79 /* LogoutUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutUseCaseTests.swift; sourceTree = "<group>"; };
 		5BD20F5B2476D884004C9B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD20F642476D8AB004C9B79 /* LogoutUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,8 @@
 		5BD20F412476D881004C9B79 /* TestSupportedDevelopmentDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5BD20F422476D881004C9B79 /* AppDelegate.swift */,
-				5BD20F442476D881004C9B79 /* SceneDelegate.swift */,
-				5BD20F462476D881004C9B79 /* ViewController.swift */,
+				5BD20F642476D8AB004C9B79 /* LogoutUseCase.swift */,
+				5BD20F662476DB80004C9B79 /* Boilerplate */,
 				5BD20F482476D881004C9B79 /* Main.storyboard */,
 				5BD20F4B2476D884004C9B79 /* Assets.xcassets */,
 				5BD20F4D2476D884004C9B79 /* LaunchScreen.storyboard */,
@@ -93,10 +94,20 @@
 		5BD20F582476D884004C9B79 /* TestSupportedDevelopmentDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				5BD20F592476D884004C9B79 /* TestSupportedDevelopmentDemoTests.swift */,
+				5BD20F592476D884004C9B79 /* LogoutUseCaseTests.swift */,
 				5BD20F5B2476D884004C9B79 /* Info.plist */,
 			);
 			path = TestSupportedDevelopmentDemoTests;
+			sourceTree = "<group>";
+		};
+		5BD20F662476DB80004C9B79 /* Boilerplate */ = {
+			isa = PBXGroup;
+			children = (
+				5BD20F422476D881004C9B79 /* AppDelegate.swift */,
+				5BD20F442476D881004C9B79 /* SceneDelegate.swift */,
+				5BD20F462476D881004C9B79 /* ViewController.swift */,
+			);
+			path = Boilerplate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BD20F472476D881004C9B79 /* ViewController.swift in Sources */,
+				5BD20F652476D8AB004C9B79 /* LogoutUseCase.swift in Sources */,
 				5BD20F432476D881004C9B79 /* AppDelegate.swift in Sources */,
 				5BD20F452476D881004C9B79 /* SceneDelegate.swift in Sources */,
 			);
@@ -210,7 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BD20F5A2476D884004C9B79 /* TestSupportedDevelopmentDemoTests.swift in Sources */,
+				5BD20F5A2476D884004C9B79 /* LogoutUseCaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
