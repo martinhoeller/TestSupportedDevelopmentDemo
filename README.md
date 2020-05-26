@@ -1,6 +1,6 @@
 # Test Supported Development Demo
 
-This project is a demo app showcasing the technique described in my blog post [Test Supported Development](https://blog.martinhoeller.net/development/2020/05/23/test-supported-development.html).
+This project is a demo app showcasing the technique described in my blog post [Test Supported Development](https://blog.martinhoeller.net/development/2020/05/26/test-supported-development.html).
 
 ## Usage
 
